@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#0F0F14">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_plan_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/chipGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBalanced"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/diet_balanced"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#7C3AED"
+                    android:layout_marginEnd="8dp" />
+
+                <Button
+                    android:id="@+id/btnHealthy"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/diet_healthy"
+                    android:backgroundTint="#1A1A26"
+                    android:textColor="#6B6B80"
+                    android:layout_marginEnd="8dp" />
+
+                <Button
+                    android:id="@+id/btnBulk"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/diet_bulk"
+                    android:backgroundTint="#1A1A26"
+                    android:textColor="#6B6B80"
+                    android:layout_marginEnd="8dp" />
+
+                <Button
+                    android:id="@+id/btnCut"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/diet_cut"
+                    android:textColor="#6B6B80"
+                    android:backgroundTint="#1A1A26" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/btnGeneratePlan"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/generate_ai_button"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7C3AED"
+            android:layout_marginBottom="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="#7C3AED"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvMealPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meal_plan_placeholder"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="8dp" />
+        </ScrollView>
+
+    </LinearLayout>
+</layout>

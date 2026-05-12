@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.NutriAI" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent_violet</item>
+        <item name="colorSecondary">@color/accent_amber</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_card</item>
+        <!-- Dark Bottom Navigation -->
+        <item name="bottomNavigationStyle">@style/BottomNavDark</item>
+    </style>
+    <style name="Theme.NutriAI" parent="Base.Theme.NutriAI"/>
+    <style name="BottomNavDark" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/bg_card</item>
+        <item name="itemIconTint">@color/accent_violet</item>
+        <item name="itemTextColor">@color/accent_violet</item>
+        <!-- In Material 3, indicator color is configured via style or directly if supported.
+             Usually @style/Widget.Material3.BottomNavigationView.ActiveIndicator is used. -->
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">NutriAI</string>
+    <string name="login_logo_emoji">🥗</string>
+    <string name="login_welcome">Welcome back</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_go_to_register">Don\'t have an account? Sign up</string>
+
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Fill in your details</string>
+    <string name="username_hint">Username</string>
+    <string name="register_button">Sign Up</string>
+    <string name="register_go_to_login">Already have an account? Login</string>
+
+    <string name="calories_title">Calorie Calculator</string>
+    <string name="weight_hint">Weight (kg)</string>
+    <string name="height_hint">Height (cm)</string>
+    <string name="age_hint">Age</string>
+    <string name="goal_label">Goal</string>
+    <string name="goal_lose">Lose</string>
+    <string name="goal_maintain">Maintain</string>
+    <string name="goal_gain">Gain</string>
+    <string name="calculate_button">Calculate</string>
+
+    <string name="meal_plan_title">Meal Plan</string>
+    <string name="diet_balanced">Balanced</string>
+    <string name="diet_healthy">Healthy</string>
+    <string name="diet_bulk">Bulk</string>
+    <string name="diet_cut">Cut</string>
+    <string name="generate_ai_button">Generate with AI</string>
+    <string name="meal_plan_placeholder">Select a diet type and generate your meal plan!</string>
+</resources>

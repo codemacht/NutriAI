@@ -1,0 +1,22 @@
+<resources>
+    <!-- Dark Palette A+C (Dark + Violet + Amber) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Backgrounds -->
+    <color name="bg_dark">#0F0F14</color>
+    <color name="bg_card">#1A1A26</color>
+    <color name="bg_input">#1A1A26</color>
+    <!-- Accents -->
+    <color name="accent_violet">#7C3AED</color>
+    <color name="accent_amber">#EF9F27</color>
+    <!-- Text -->
+    <color name="text_primary">#EEEEFF</color>
+    <color name="text_secondary">#6B6B80</color>
+    <!-- Tags -->
+    <color name="tag_violet_bg">#2D1A4A</color>
+    <color name="tag_violet_text">#A78BFA</color>
+    <color name="tag_green_bg">#1A2A1A</color>
+    <color name="tag_green_text">#6EE7B7</color>
+    <!-- Danger -->
+    <color name="danger">#E24B4A</color>
+</resources>
